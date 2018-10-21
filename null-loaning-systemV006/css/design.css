@@ -1,0 +1,85 @@
+body {
+	width: 1327;
+	padding: 20px;
+	padding-top: 0;
+	text-align: center;
+	background: black;
+}
+
+h2 {
+	background: #ccc;
+	margin-top: 10;
+	margin-right: 0;
+	margin-left: 0;
+	padding: 10px;
+	text-spacing: 20px;
+}
+
+
+input[type="text"] {
+	height: 30px;
+	width: 300px;
+}
+
+#divContent {
+	text-align: left;
+	float: right;
+	background: #ccc;
+	width: 1050px;
+	height: 550px;
+	padding: 10px;
+}
+
+
+#divNav {
+	background: #eee;
+	float: left;
+	width: 227px;
+	height: 510px;
+	padding: 10px;
+	padding-top: 50px;
+	font-size: 19px;
+	
+}
+
+#ulNav {
+	list-style-type: none;
+	display: block;
+	cursor: pointer;
+	margin: 0 auto;
+}
+
+#ulNav li {
+	background: white;
+	width: inherit;
+	padding: 10px;
+}
+
+#ulNav li:hover {
+	background: #aaa;
+}
+
+#spanBtn {
+	float: right;
+}
+
+#clientsContent, #homeContent, #transactionsContent, #propertiesContent,
+#nullClientHomeContent, #newLoanContent, #contactContent, #accountContent, #cashLoan {
+	display: none;
+}
+
+#btnOptions button {
+	height: 150px;
+	width: 300px;
+	border-radius: 10px;
+	color: blue;
+	font-size: 40px;
+	margin-left: 20px;
+	
+}
+
+#tbl_addProp {
+	margin-left: 20px;
+	border-left: 5px solid white;
+	padding: 20px;
+}

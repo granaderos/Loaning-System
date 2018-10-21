@@ -1,0 +1,36 @@
+body {
+	padding: 20px;
+	padding-top: 0;
+	text-align: center;
+	background: black;
+}
+
+h2 {
+	background: #ccc;
+	margin-top: 0;
+	margin-right: 0;
+	margin-left: 0;
+	padding: 10px;
+}
+
+span {
+	color: #eee;
+}
+
+input[type="text"], input[type="password"] {
+	height: 30px;
+	width: 500px;
+}
+
+#divMainContainer {
+	text-align: center;
+}
+
+#divLogin {
+	background: #ccc;
+	padding: 20px;
+	height: 300px;
+	width: 500px;
+	margin: auto auto;
+	text-align: center;
+}
